@@ -48,4 +48,4 @@ By default comments shown as in the admin panel. Thus, newer comments will be in
 
 ### Use in ajax forms (or as a feedback collection)
 
-Provide the ```&docId=`N` ``` parameter in FormLister call in **{{pb_commentsform}}** to post comments to particular page
+Provide the ```&docId=`N```` parameter in FormLister call in **{{pb_commentsform}}** to post comments to particular page
