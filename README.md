@@ -24,6 +24,7 @@ Package provides:
 Both can be installed via Extras module from admin panel without extra downloads.
 
 ##Additional usage
+
 By default all the comments posted to PageBuilder invisible. If you want to publish by default add ```&visible=`1` ``` in FormLister call in **{{pb_commentsform}}**
 
 By default comments shown as in the admin panel. Thus, newer comments will be in the end of list. To reverse them (new on top) there is no option for PageBuilder call. But you can list comments reversed (or unstyled) using Blade
@@ -46,4 +47,5 @@ By default comments shown as in the admin panel. Thus, newer comments will be in
 ```
 
 ###Use in ajax forms (or as a feedback collection)
+
 Provide the ```&docId=`N` ``` parameter in FormLister call in **{{pb_commentsform}}** to post comments to particular page
