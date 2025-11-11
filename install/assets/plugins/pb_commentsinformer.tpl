@@ -25,7 +25,7 @@ switch($e->name){
 		if($documents){
 			$output.='<p>'.$e->params['list'].'</p><ul>';
 			foreach($documents as $doc){
-				$title = $modx->runsnippet('DocInfo',['docid'=>$doc['document_id'] ]);
+				$title = $modx->runSnippet('DocInfo',['docid'=>$doc['document_id'] ]);
 				$output.='<li><a href="?a=27&r=1&id='.$doc['document_id'].'">'.$title.'</a></li>';
 			}
 			$output.='</ul>';
@@ -46,4 +46,5 @@ switch($e->name){
 			$e->output(serialize($widgets));
 		}
 		break;
+
 }
