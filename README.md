@@ -20,8 +20,9 @@ Package provides:
 
 - [PageBuilder](https://github.com/mnoskov/pagebuilder)
 - [FormLister](https://github.com/Pathologic/FormLister)
+- [DocInfo](https://github.com/extras-evolution/DocInfo)
 
-Both can be installed via Extras module from admin panel without extra downloads.
+All of them can be installed via Extras module from admin panel without extra downloads.
 
 ## Additional usage
 By default all the comments posted to PageBuilder invisible. If you want to publish by default add ```&visible=`1` ``` in FormLister call in **{{pb_commentsform}}**
